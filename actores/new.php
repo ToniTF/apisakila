@@ -1,4 +1,5 @@
 <?php
+include_once("../validarAcceso.php");
 if(isset($_POST["name"]) && $_POST["lastname"]){
 
 include("../conexiondb.php");

@@ -1,5 +1,5 @@
 <?php
-include("config.php");
+include_once("config.php");// incluye el archivo de configuración si no se ha incluido antes
 $host = HOST; // o la IP de tu servidor MySQL
 $user = DB_USER;
 $password = DB_PASS;
